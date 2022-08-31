@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&family=Anek+Telugu:wght@100;200;300;400;500;600;700;800&family=Cairo:wght@200;300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Qwitcher+Grypen:wght@400;700&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Silkscreen&display=swap');
+*{  font-family: 'Anek Telugu', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header{
+    background-color: #d5d2f3;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 10px 100px;
+}
+.logo {
+    font-size: 1.8em;
+    color: #3447f0;
+    text-decoration: none;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.logo a:hover {
+color: #fcf270;
+}
+.navigation a{
+    text-decoration: none;
+    font-size: 1.6em;
+    color: #3447f0;
+    font-weight: 500;
+    padding-left: 30px;
+    
+}
+.navigation a:hover {
+    color: #fcf270;
+}
+nav ul li {
+    display: inline-block;
+}
+.main {
+    width: 100%;
+    min-height: 100vh;
+    
+    background: url(back1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: aliceblue;
+    text-align: center;
+    
+
+}
+
+
+h2 h3 {
+margin: 50px 20px ;
+}
+.home{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #f07f34;
+    font-size: medium;
+    font-weight: bold;
+    text-align: center;
+}
+.about{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.mywork{
+    margin-left: 20px;
+    font-size: 20px;
+}
+.mywork a:hover {
+    text-decoration: none;
+    color: #24f783;
+}
+.time {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.contact{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.video{
+    margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 5px;
+}
+.footer{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+} 
