@@ -51,11 +51,24 @@ nav ul li {
     
 
 }
-
-
-h2 h3 {
-margin: 50px 20px ;
+.text{
+   position: relative;
+   top: 175px;
+   right: 500px;
+  
+    font-size: 30px;
 }
+.img{
+    position: relative;
+    left: 100px;
+    bottom: 30px;
+   
+}
+
+
+/* h2 h3 {
+margin: 50px 20px ;
+} */
 .home{
     margin-top: 20px;
     margin-bottom: 20px;
